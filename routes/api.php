@@ -1,11 +1,11 @@
 <?php
 
-//use App\Http\Controllers\Api\FilmController;
-use App\Http\Controllers\Api\GenreController;
-use App\Http\Controllers\Api\AktorController;
-use App\Http\Controllers\Api\FilmController;
-use App\Http\Controllers\Api\KategoriController;
-use App\Http\Controllers\Api\LoginController;
+//use App\Http\Controllers\API\FilmController;
+use App\Http\Controllers\API\GenreController;
+use App\Http\Controllers\API\AktorController;
+use App\Http\Controllers\API\FilmController;
+use App\Http\Controllers\API\KategoriController;
+use App\Http\Controllers\API\LoginController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 | Here is where you can register API routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
+| is assigned the "API" middleware group. Enjoy building your API!
 |
 */
 
