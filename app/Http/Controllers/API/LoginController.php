@@ -34,7 +34,7 @@ class LoginController extends Controller
             'data' => $user,
             'access_token' => $token,
             'message' => 'Login success',
-        ], 200);
+        ], 201);
 
     }
     public function logout(Request $request) {
