@@ -64,6 +64,6 @@ class LoginController extends Controller
             'data' => $user,
             'success' => true,
             'message' => 'user berhasil di buat',
-        ], 200);
+        ],  200);
     }
 }
