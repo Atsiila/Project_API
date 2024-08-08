@@ -34,7 +34,7 @@ class LoginController extends Controller
             'data' => $user,
             'access_token' => $token,
             'message' => 'Login success',
-        ], 201);
+        ], 200);
 
     }
     public function logout(Request $request) {
@@ -43,7 +43,7 @@ class LoginController extends Controller
         return response()->json([
             'status' => true,
             'message' => 'logout success',
-        ], 200);
+        ], 203);
     }
     public function register(Request $request)
     {
@@ -64,6 +64,6 @@ class LoginController extends Controller
             'data' => $user,
             'success' => true,
             'message' => 'user berhasil di buat',
-        ], 200);
+        ], 201);
     }
 }
